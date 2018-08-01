@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen margins for image buttons. -->
+    <dimen name="image_buttons_margin">16dp</dimen>
+
+    <!-- Screen padding for text views. -->
+    <dimen name="text_view_padding">16dp</dimen>
+
+    <!-- Text size for headers. -->
+    <dimen name="headers_text_size">20sp</dimen>
+
+    <!-- Text size for details. -->
+    <dimen name="details_text_size">16sp</dimen>
+
+    <!-- Dimensions using 0dp. -->
+    <dimen name="zero_dp">0dp</dimen>
+
+</resources>

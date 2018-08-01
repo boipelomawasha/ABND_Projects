@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cape Town Testing</string>
+    <string name="about">About Us:</string>
+    <string name="description">From temperature of pool water to the security of banking websites, we ALL test. Join us to learn how to grow and cultivate your sense of curiosity and problem solving. These meetups will introduce you to Cape Town\'s box-breaking, critical thinking, blacksheeping software community - developers, product owners, testers and those agile folk.</string>
+    <string name="join_us">Join us</string>
+    <string name="slack">https://join.slack.com/t/capetowntesting/shared_invite/enQtMzM4NjM1NTIyMjE0LTk5ZTI3Mzg3NTBjZjI2NjIzY2QwNmFkYzhkMzRkMGQ5NTU3ODg0Y2M2ODMzNzQxNjhkOTUxYzZhZWRlY2QzY2I</string>
+    <string name="meetup">https://www.meetup.com/cape-town-testing-meetup/</string>
+    <string name="twitter">https://twitter.com/CapeTownTesting</string>
+    <string name="youtube">https://www.youtube.com/channel/UCVgfK2ejeiKH6GVz28KNdbg</string>
+    <string name="github">https://github.com/cape-town-testing</string>
+</resources>

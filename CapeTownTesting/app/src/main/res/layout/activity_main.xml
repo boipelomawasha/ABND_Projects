@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/zero_dp"
+        android:src="@drawable/cpttest_logo"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/text_view_padding"
+            android:paddingTop="@dimen/text_view_padding"
+            android:text="@string/about"
+            android:textSize="@dimen/headers_text_size"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:fontFamily="@font/roboto_mono_thin" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/zero_dp"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/text_view_padding"
+        android:paddingRight="@dimen/text_view_padding"
+        android:textSize="@dimen/details_text_size"
+        android:text="@string/description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/text_view_padding"
+            android:paddingBottom="@dimen/text_view_padding"
+            android:text="@string/join_us"
+            android:textStyle="bold"
+            android:textSize="@dimen/headers_text_size"
+            android:gravity="center"
+            app:fontFamily="@font/roboto_mono_thin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/slack"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/image_buttons_margin"
+            android:layout_marginLeft="@dimen/image_buttons_margin"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/slackv2" />
+
+        <ImageButton
+            android:id="@+id/meetup"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/image_buttons_margin"
+            android:layout_marginBottom="@dimen/image_buttons_margin"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/meetupv2" />
+
+        <ImageButton
+            android:id="@+id/twitter"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/image_buttons_margin"
+            android:layout_marginLeft="@dimen/image_buttons_margin"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/twitterv2" />
+
+        <ImageButton
+            android:id="@+id/youtube"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/image_buttons_margin"
+            android:layout_marginLeft="@dimen/image_buttons_margin"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/youtubev2" />
+
+        <ImageButton
+            android:id="@+id/github"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/image_buttons_margin"
+            android:layout_marginLeft="@dimen/image_buttons_margin"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/githubv2" />
+
+    </LinearLayout>
+
+</LinearLayout>
