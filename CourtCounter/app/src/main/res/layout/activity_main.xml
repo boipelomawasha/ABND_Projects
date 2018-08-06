@@ -21,7 +21,7 @@
                 android:id="@+id/team_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@string/team_name_font"
                 android:gravity="center_horizontal"
                 android:paddingBottom="@dimen/small_padding"
                 android:paddingTop="@dimen/small_padding"
@@ -29,12 +29,11 @@
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/team_name_text_size" />
 
-
             <TextView
                 android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@string/other_fields_font"
                 android:gravity="center_horizontal"
                 android:paddingBottom="@dimen/medium_padding"
                 android:text="@string/default_score"
@@ -54,12 +53,12 @@
                 android:id="@+id/team_a_fouls"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@string/other_fields_font"
                 android:gravity="center_horizontal"
                 android:paddingBottom="@dimen/small_padding"
-                android:text="0"
+                android:text="@string/default_foul"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="30sp" />
+                android:textSize="@dimen/foul_text_size" />
 
             <Button
                 android:layout_width="match_parent"
@@ -71,8 +70,6 @@
                 android:text="@string/foul" />
         </LinearLayout>
 
-
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -83,7 +80,7 @@
                 android:id="@+id/team_b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@string/team_name_font"
                 android:gravity="center_horizontal"
                 android:paddingBottom="@dimen/small_padding"
                 android:paddingTop="@dimen/small_padding"
@@ -95,7 +92,7 @@
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@string/other_fields_font"
                 android:gravity="center_horizontal"
                 android:paddingBottom="@dimen/medium_padding"
                 android:text="@string/default_score"
@@ -115,13 +112,12 @@
                 android:id="@+id/team_b_fouls"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@string/other_fields_font"
                 android:gravity="center_horizontal"
                 android:paddingBottom="@dimen/small_padding"
-                android:text="0"
+                android:text="@string/default_foul"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="30sp" />
-
+                android:textSize="@dimen/foul_text_size" />
 
             <Button
                 android:layout_width="match_parent"
@@ -135,38 +131,14 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/timer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/simulate"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
-        android:gravity="center_horizontal"
-        android:text="00:00"
-        android:textColor="@android:color/black"
-        android:textSize="30sp"
-        android:visibility="invisible" />
-
-    <Button
-        android:id="@+id/simulate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/reset"
-        android:layout_marginBottom="@dimen/small_margin"
-        android:onClick="simulation"
-        android:text="@string/simulate" />
-
     <Button
         android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="@dimen/large_margin"
         android:onClick="reset"
         android:text="@string/reset" />
-
 
 </RelativeLayout>

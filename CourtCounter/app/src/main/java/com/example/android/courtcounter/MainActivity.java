@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     final String[] teamsArray = {"South Africa", "Zimbabwe", "Nigeria", "Ghana", "Kenya", "Niger", "Chad", "Tunisia", "Egypt", "DRC"};
     final SimpleDateFormat timeFormat = new SimpleDateFormat("mm:ss");
 
-
     /**
      * Method called when app is created
      */
@@ -47,32 +46,6 @@ public class MainActivity extends AppCompatActivity {
         TextView teamBName = (TextView) findViewById(R.id.team_b);
         teamBName.setText(teamB);
     }
-
-
-    /**
-     * Kicks off the simulation
-     */
-    public void simulation(View view){
-
-        reset(); //Reset all components
-
-        timerDisplayVisible(); //Set timer to visible
-
-        final TextView timerView = (TextView) findViewById(R.id.timer);
-
-        CountDownTimer timer = new CountDownTimer(10000, 1000) {
-            @Override
-            public void onTick(long millisUntilFinished) {
-                timerView.setText(timeFormat.format(millisUntilFinished));
-            }
-
-            @Override
-            public void onFinish() {
-                timerView.setText(timeFormat.format(0));
-            }
-        }.start();
-    }
-
 
     /**
      * Displays the given score for Team A.
@@ -165,19 +138,5 @@ public class MainActivity extends AppCompatActivity {
         scoreDisplayForTeamB(scoreTeamB);
         foulDisplayForTeamA(foulTeamA);
         foulDisplayForTeamB(foulTeamB);
-    }
-
-    //Updates team scores and fouls
-    private void updateValues(){
-
-        Random rand = new Random();
-        int value =                                                                                                                                                                                                             rand.nextInt(39);
-
-    }
-
-    //Turns on the timer display
-    private void timerDisplayVisible(){
-        TextView timerView = (TextView) findViewById(R.id.timer);
-        timerView.setVisibility(View.VISIBLE);
     }
 }

@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Soccer Counter</string>
 
-    <!-- Default values for scores -->
+    <!-- Default value for scores -->
     <string name="default_score">0</string>
+
+    <!-- Default value for fouls -->
+    <string name="default_foul">0</string>
 
     <!-- Default values for team names -->
     <string name="default_team_a">Team A</string>
@@ -15,6 +18,7 @@
     <string name="simulate">simulate</string>
 
     <!-- Strings for fonts -->
-
+    <string name="team_name_font">sans-serif-medium</string>
+    <string name="other_fields_font">sans-serif-light</string>
 
 </resources>
