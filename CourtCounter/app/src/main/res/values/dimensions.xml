@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensions for team names. -->
+    <dimen name="team_name_text_size">16sp</dimen>
+    <dimen name="team_name_bottom_padding">16dp</dimen>
+
+    <!-- Dimensions for score fields. -->
+    <dimen name="image_buttons_margin">16dp</dimen>
+    <dimen name="score_text_size">56sp</dimen>
+
+    <!-- Dimensions for foul fields. -->
+    <dimen name="text_view_padding">16dp</dimen>
+    <dimen name="foul_text_size">30sp</dimen>
+
+    <!-- Padding. -->
+    <dimen name="small_padding">16dp</dimen>
+    <dimen name="medium_padding">24dp</dimen>
+
+    <!-- Margins. -->
+    <dimen name="very_small_margin">8dp</dimen>
+    <dimen name="small_margin">16dp</dimen>
+    <dimen name="medium_margin">24dp</dimen>
+    <dimen name="large_margin">32dp</dimen>
+
+
+
+</resources>

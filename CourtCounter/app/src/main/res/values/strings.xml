@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Soccer Counter</string>
+
+    <!-- Default values for scores -->
+    <string name="default_score">0</string>
+
+    <!-- Default values for team names -->
+    <string name="default_team_a">Team A</string>
+    <string name="default_team_b">Team B</string>
+
+    <!-- Strings for buttons -->
+    <string name="score_goal">score goal</string>
+    <string name="foul">foul</string>
+    <string name="reset">reset</string>
+    <string name="simulate">simulate</string>
+
+    <!-- Strings for fonts -->
+
+
 </resources>
