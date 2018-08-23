@@ -105,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
         chkQuestion5_2.setChecked(false);
         chkQuestion5_3.setChecked(false);
         txtQuestion6.setText("");
+        correctResponse = 0;
+        incorrectResponse = 0;
 
     }
 
@@ -197,20 +199,20 @@ public class MainActivity extends AppCompatActivity {
                 userAnswersQ5.add(chkQuestion5_3.getText().toString());
 
             //Get answer for question 6
-            userAnswerQ6 = txtQuestion6.getText().toString();
+            userAnswerQ6 = txtQuestion6.getText().toString().toLowerCase();
 
     }
 
     private void setAnswers(){
 
-        answerQ1 = "Scythe";
-        answerQ2 = "Garganta";
-        answerQ3 = "Mugetsu";
-        answersQ4.add("Rōjūrō Ōtoribashi");
-        answersQ4.add("Kensei Muguruma");
-        answersQ5.add("Jagdarmee");
-        answersQ5.add("Sternritter");
-        answerQ6 = "Retsu Unohana";
+        answerQ1 = "Seven";
+        answerQ2 = "The Galilean Moons";
+        answerQ3 = "The North Star";
+        answersQ4.add("Plasma");
+        answersQ4.add("Solid");
+        answersQ5.add("Bohrium");
+        answersQ5.add("Neptunium");
+        answerQ6 = "fainting";
     }
 
     private void grade(){
